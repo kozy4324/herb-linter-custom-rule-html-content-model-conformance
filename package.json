@@ -2,7 +2,7 @@
   "name": "herb-linter-custom-rule-html-content-model-conformance",
   "version": "1.0.0",
   "description": "https://github.com/marcoroth/herb/pull/1030",
-  "main": "index.js",
+  "main": "html-content-model-conformance.mjs",
   "type": "module",
   "scripts": {
     "build": "npx esbuild html-content-model-conformance.ts --outfile=html-content-model-conformance.mjs --format=esm --target=esnext --bundle=false"
