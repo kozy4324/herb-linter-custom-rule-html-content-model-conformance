@@ -122,7 +122,7 @@ class HTMLContentModelConformanceRule extends ParserRule {
   name = "html-content-model-conformance";
   get defaultConfig() {
     return {
-      enabled: false,
+      enabled: true,
       severity: "error"
     };
   }

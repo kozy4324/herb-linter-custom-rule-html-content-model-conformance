@@ -187,7 +187,7 @@ export class HTMLContentModelConformanceRule extends ParserRule {
 
   get defaultConfig(): FullRuleConfig {
     return {
-      enabled: false,
+      enabled: true,
       severity: "error",
     }
   }
